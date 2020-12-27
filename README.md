@@ -6,7 +6,7 @@ java -jar logisim-generic-2.7.1.jar
 
 ## Program counter
 
-4X 74161 chained w/ carry out to next 4bit's clk
+4X 74161 chained w/ carry out to next 4bit's clk or clk to each clock if jump is set
 
 In: 
 * CON: 
@@ -17,7 +17,7 @@ In:
 * CLK (clock)
 
 I/O:
-* 16b <=> bus
+* 14b <=> bus
 
 ## Rom Address Register
 
@@ -30,6 +30,6 @@ IN:
 * CLK (clock)
 
 I/O:
-* 16b from bus
-* 16b to ROM
+* 14b from bus
+* 14b to ROM
 
